@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IMC</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <fieldset>
+      <h1>IMC calculator</h1>
+      <label for="name">name</label>
+      <input id="name" type="text" name="name" required />
+      <br />
+      <label for="height">height</label>
+      <input id="height" type="number" name="height" required />
+      <br />
+      <label for="weight">weight</label>
+      <input id="weight" type="number" name="weight" required />
+      <br />
+      <input type="submit" onclick="imc()" />
+      <p id="result"></p>
+      <span id="note"></span>
+      <hr />
+    </fieldset>
+  </body>
+</html>
